@@ -66,7 +66,7 @@ The speaker diarization system integrates several sophisticated models to accura
 - **Usage:** The model takes speaker embeddings and audio features as input and produces speaker labels and timestamps for each segment of speech. It is particularly effective in handling overlapping speech and noisy environments.
 ### YAML Configuration File
 
-Here is the `[config.yaml]`(https://github.com/Alkholy53/Egy_Speaker_Diarization/blob/main/diar_infer_meeting.yaml) file, including the configurations for both the `titanet_large` and `diar_msdd_meeting` models:
+Here is the [config.yaml](https://github.com/Alkholy53/Egy_Speaker_Diarization/blob/main/diar_infer_meeting.yaml) file, including the configurations for both the `titanet_large` and `diar_msdd_meeting` models.
 
 ## Experiment Technicalities
 
@@ -103,6 +103,9 @@ The system comprises multiple components working in tandem to achieve high-accur
 You can run this notebook on [kaggel](https://www.kaggle.com/code/abdallahmohamed53/final-diar-asr)
 
 
+## Discussion & Results
+
+
 ### What Parameters Can You Change in the future?
 
 #### Types of Parameters
@@ -111,8 +114,6 @@ You can run this notebook on [kaggel](https://www.kaggle.com/code/abdallahmohame
 2. **Clustering Threshold:** Adjust the distance threshold for clustering.
 3. **VAD Parameters:** Modify window length and hop length for feature extraction.
 
-
-## Discussion & Results
 
 ### Numerical Results
 
