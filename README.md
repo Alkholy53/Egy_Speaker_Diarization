@@ -19,16 +19,34 @@ The objective in this phase  to improve an ASR system that can accurately transc
 - **Phase 2 WER and DER:** [Insert WER and DER results]
 
 ## Model Details 
- asr model 
-this are details  about our  asr model
-we improve our ASR model by these steps 
-1
-2
-3
-build language  model
-like notebook for language model 
 
+### ASR Model Enhancement 
 
+We have entered the second phase of the competition, focusing on enhancing our Automatic Speech Recognition (ASR) model. Below are the key steps and improvements we have implemented:
+
+*Enhancements*
+
+**1- Tokenizer Enhancement:**
+
+Upgraded the tokenizer to tokenizer_spe_bpe_v128, which features 128 vocabulary size, SentencePiece Encoding (SPE), and Byte Pair Encoding (BPE) for better handling of speech data.
+
+**2- Configuration Parameter Optimization:**
+
+Enhanced the configuration parameters:
+-Increased batch size to accelerate training while ensuring accuracy remains unaffected.
+-Enabled resuming training from the last best checkpoint. [Link to .yaml configuration file]
+
+**3- Extended Training Duration:**
+
+Increased the number of training epochs to 170 to improve model performance and convergence.
+
+**4- Language Model Integration:**
+
+Incorporated a language model to enhance recognition accuracy and contextual understanding. [Link to attached notebook]
+
+-These enhancements have significantly improved our ASR model's performance, bringing us closer to achieving our project goals.
+
+For more details here is the link for the [first phase Repo](https://github.com/Alkholy53/ASR-Squad).
 
 ### Speaker Diarization Architecture and Models
 
@@ -52,7 +70,7 @@ Below is the `config.yaml` file, including the configurations for both the `tita
 
 ```yaml
 # Configuration for Speaker Diarization System
-
+```
 link ymal file
 ## Experiment Technicalities
 
@@ -86,10 +104,10 @@ The system comprises multiple components working in tandem to achieve high-accur
 
 #### How to Make It Work
 
-You can run this notebook on kaggel
-https://www.kaggle.com/code/abdallahmohamed53/final-diar-asr
+You can run this notebook on [kaggel](https://www.kaggle.com/code/abdallahmohamed53/final-diar-asr)
 
-### What Parameters Can You Change in the futut?
+
+### What Parameters Can You Change in the future?
 
 #### Types of Parameters
 
@@ -97,11 +115,28 @@ https://www.kaggle.com/code/abdallahmohamed53/final-diar-asr
 2. **Clustering Threshold:** Adjust the distance threshold for clustering.
 3. **VAD Parameters:** Modify window length and hop length for feature extraction.
 
-## future work  & Results
 
+## Discussion & Results
 
 ### Numerical Results
 
-- **Phase 1 WER:** [Insert WER result]
-- **Phase 2 WER and DER:** [Insert WER and DER results]
+| Number of Epochs | Word Error Rate (WER) |
+|------------------|-----------------------|
+| 5                | 73%                   |
+| 30               | 44%                   |
+| 100              | 34%                   |
+| 170              | 32%                   |
 
+
+### Future Work
+
+To further improve the model, we plan to focus on the following areas:
+
+1. **Increased Training Duration**:
+    - Conduct additional training with more epochs, which will require more resources such as GPUs and extended training hours.
+
+2. **Language Model Enhancement**:
+    - Further refine the language model to improve contextual accuracy and overall performance.
+
+3. **Parameter Optimization**:
+    - Continue to enhance and fine-tune the model parameters for optimal performance.
