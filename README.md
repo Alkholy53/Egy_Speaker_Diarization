@@ -128,7 +128,7 @@ You can run this notebook on [kaggel](https://www.kaggle.com/code/abdallahmohame
 
 The ASR model checkpoints can be downloaded from the following link:
 
-- [epoch=169-step=59840.ckpt]([https://drive.google.com/file/d/your_file_id/view?usp=sharing](https://drive.google.com/file/d/1IYAYT4mKskn00-n7xHfnXP0udZqzhiNh/view?usp=drive_link))
+- [epoch=169-step=59840.ckpt](https://drive.google.com/file/d/1IYAYT4mKskn00-n7xHfnXP0udZqzhiNh/view?usp=drive_link)
 
 ### Future Work
 
