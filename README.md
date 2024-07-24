@@ -2,8 +2,8 @@
 ## Outline
 - [Abstract](#abstract)
 - [Model Details](#model-details)
- - [ASR Model Enhancement](#ASR-Model-Enhancement)
- - [Speaker Diarization Architecture and Models](#Speaker-Diarization-Architecture-and-Models)
+ -- [ASR Model Enhancement](#ASR-Model-Enhancement)
+ -- [Speaker Diarization Architecture and Models](#Speaker-Diarization-Architecture-and-Models)
 - [Experiment Technicalities](#experiment-technicalities)
 - [How to Use the Model?](#how-to-use-the-model)
 - [Discussion & Results](#discussion--results)
