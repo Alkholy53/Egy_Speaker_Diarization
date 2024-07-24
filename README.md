@@ -24,7 +24,7 @@ The objective in this phase  to improve an ASR system that can accurately transc
 
 We have entered the second phase of the competition, focusing on enhancing our Automatic Speech Recognition (ASR) model. Below are the key steps and improvements we have implemented:
 
-*Enhancements*
+#### *Enhancements*
 
 **1- Tokenizer Enhancement:**
 
@@ -164,7 +164,7 @@ diarizer:
       min_number_of_words: 3 # Min number of words for the left context.
       max_number_of_words: 10 # Max number of words for the right context.
       logprob_diff_threshold: 1.2  # The threshold for the difference between two log probability values from two hypotheses.```
-link ymal file
+```
 ## Experiment Technicalities
 
 ### Components Overview (Big Picture)
