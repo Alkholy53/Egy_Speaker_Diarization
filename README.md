@@ -26,7 +26,7 @@ The objective in this phase  to improve an ASR system that can accurately transc
 
 ## ASR Model Enhancement 
 
-We have entered the second phase of the competition, focusing on enhancing our Automatic Speech Recognition (ASR) model. Below are the key steps and improvements we have implemented:
+We have entered the second phase of the competition, focusing on enhancing our Automatic Speech Recognition (ASR) model. In this [notebook](https://github.com/Alkholy53/Egy_Speaker_Diarization/blob/main/trainn_ASR_model.ipynb) the whole training process Below are the key steps and improvements we have implemented:
 
 ### *Enhancements:*
 
