@@ -2,8 +2,8 @@
 ## Outline
 - [Abstract](#abstract)
 - [Model Details](#model-details)
-  [ASR Model Enhancement](#ASR-Model-Enhancement)
-  [Speaker Diarization Architecture and Models](#Speaker-Diarization-Architecture-and-Models)
+    - [ASR Model Enhancement](#ASR-Model-Enhancement)
+    - [Speaker Diarization Architecture and Models](#Speaker-Diarization-Architecture-and-Models)
 - [Experiment Technicalities](#experiment-technicalities)
 - [How to Use the Model?](#how-to-use-the-model)
 - [Discussion & Results](#discussion--results)
@@ -127,7 +127,7 @@ You can run this notebook on [kaggel](https://www.kaggle.com/code/abdallahmohame
 | 100              | 34%                   |
 | 170              | 32%                   |
 
-# Checkpoints
+### Checkpoints
 
 The ASR model checkpoints can be downloaded from the following link:
 
