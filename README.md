@@ -15,8 +15,8 @@ This project focuses on Arabic Speech Recognition for Egyptian Dialects, specifi
 The objective in this phase  to improve an ASR system that can accurately transcribe Egyptian Arabic speech and provide diarization of multi-speaker audio recordings, including speaker identification and timestamps.
 
 ### Numerical Result
-- **Phase 1 WER:** [Insert WER result]
-- **Phase 2 WER and DER:** [Insert WER and DER results]
+- **Phase 1 WER:** 34%
+- **Phase 2 WER and DER:** 32% - 11%
 
 ## Model Details 
 
