@@ -18,9 +18,11 @@ The objective in this phase  to improve an ASR system that can accurately transc
 - **Phase 1 WER:** 34%
 - **Phase 2 WER and DER:** 32% and 11%
 
-## Model Details 
+## Model Details
+- [ASR Model Enhancement](#ASR-Model-Enhancement)
+- [Speaker Diarization Architecture and Models](#Speaker-Diarization-Architecture-and-Models)
 
-### ASR Model Enhancement 
+## ASR Model Enhancement 
 
 We have entered the second phase of the competition, focusing on enhancing our Automatic Speech Recognition (ASR) model. Below are the key steps and improvements we have implemented:
 
@@ -48,7 +50,7 @@ Incorporated a language model to enhance recognition accuracy and contextual und
 
 For more details here is the link for the [first phase Repo](https://github.com/Alkholy53/ASR-Squad).
 
-### Speaker Diarization Architecture and Models
+## Speaker Diarization Architecture and Models
 
 The speaker diarization system integrates several sophisticated models to accurately segment and identify speakers in multi-speaker audio recordings.
 
