@@ -1,14 +1,14 @@
 # Egy_Speaker_Diarization
 ## Outline
-- [Abstract](#abstract)
-- [Model Details](#model-details)
+- [1. Abstract](#abstract)
+- [2. Model Details](#model-details)
     - [ASR Model Enhancement](#ASR-Model-Enhancement)
     - [Speaker Diarization Architecture and Models](#Speaker-Diarization-Architecture-and-Models)
-- [Experiment Technicalities](#experiment-technicalities)
-- [How to Use the Model?](#how-to-use-the-model)
-- [Discussion & Results](#discussion--results)
+- [3. Experiment Technicalities](#experiment-technicalities)
+- [4. How to Use the Model?](#how-to-use-the-model)
+- [5. Discussion & Results](#discussion--results)
 
-## Abstract
+## 1. Abstract
 
 ### Brief
 This project focuses on Arabic Speech Recognition for Egyptian Dialects, specifically in noisy environments and multi-speaker scenarios. The ASR system has been trained on 100 hours of Egyptian dialect speech data and evaluated in two phases. The second phase involves diarization of multi-speaker recordings.
@@ -20,7 +20,7 @@ The objective in this phase  to improve an ASR system that can accurately transc
 - **Phase 1 WER:** 34%
 - **Phase 2 WER and DER:** 32% and 11%
 
-## Model Details
+## 2. Model Details
 
 
 ## ASR Model Enhancement 
@@ -71,7 +71,7 @@ The speaker diarization system integrates several sophisticated models to accura
 
 Here is the [config.yaml](https://github.com/Alkholy53/Egy_Speaker_Diarization/blob/main/diar_infer_meeting.yaml) file, including the configurations for both the `titanet_large` and `diar_msdd_meeting` models.
 
-## Experiment Technicalities
+## 3. Experiment Technicalities
 
 ### Components Overview (Big Picture)
 The system comprises multiple components working in tandem to achieve high-accuracy ASR and diarization:
@@ -97,7 +97,7 @@ The system comprises multiple components working in tandem to achieve high-accur
 - **Function:** Detects voice activity in the audio to segment speech and non-speech regions.
 - **Details:** Pre-trained VAD model to enhance diarization accuracy.
 
-## How to Use the Model?
+## 4. How to Use the Model?
 
 ### Utilization (Guide) - Process to Use the End-to-End Code
 
@@ -106,7 +106,7 @@ The system comprises multiple components working in tandem to achieve high-accur
 You can run this notebook on [kaggel](https://www.kaggle.com/code/abdallahmohamed53/final-diar-asr)
 
 
-## Discussion & Results
+## 5. Discussion & Results
 
 
 ### What Parameters Can You Change in the future?
