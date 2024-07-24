@@ -7,7 +7,7 @@ device: null # can specify a specific device, i.e: cuda:1 (default cuda if cuda 
 verbose: True # enable additional logging
 
 diarizer:
-  manifest_filepath: ???
+  manifest_filepath: "/kaggle/working/output_manifest.json"
   out_dir: ???
   oracle_vad: False # If True, uses RTTM files provided in the manifest file to get speech activity (VAD) timestamps
   collar: 0.25 # Collar value for scoring
@@ -61,7 +61,7 @@ diarizer:
       overlap_infer_spk_limit: 5 # If the estimated number of speakers are larger than this number, overlap speech is not estimated.
   
   asr:
-    model_path: stt_en_conformer_ctc_small # Provide NGC cloud ASR model name. stt_en_conformer_ctc_* models are recommended for diarization purposes.
+    model_path: ?? # Provide NGC cloud ASR model name. stt_en_conformer_ctc_* models are recommended for diarization purposes.
     parameters:
       asr_based_vad: False # if True, speech segmentation for diarization is based on word-timestamps from ASR inference.
       asr_based_vad_threshold: 1.0 # Threshold (in sec) that caps the gap between two words when generating VAD timestamps using ASR based VAD.
@@ -75,7 +75,7 @@ diarizer:
       break_lines: False # If True, the output transcript breaks the line to fix the line width (default is 90 chars)
     
     ctc_decoder_parameters: # Optional beam search decoder (pyctcdecode)
-      pretrained_language_model: null # KenLM model file: .arpa model file or .bin binary file.
+      pretrained_language_model: "/kaggle/working/kenlm_model.binary" # KenLM model file: .arpa model file or .bin binary file.
       beam_width: 32
       alpha: 0.5
       beta: 2.5
