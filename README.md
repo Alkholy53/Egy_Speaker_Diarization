@@ -2,6 +2,8 @@
 ## Outline
 - [Abstract](#abstract)
 - [Model Details](#model-details)
+ - [ASR Model Enhancement](#ASR-Model-Enhancement)
+ - [Speaker Diarization Architecture and Models](#Speaker-Diarization-Architecture-and-Models)
 - [Experiment Technicalities](#experiment-technicalities)
 - [How to Use the Model?](#how-to-use-the-model)
 - [Discussion & Results](#discussion--results)
@@ -19,8 +21,7 @@ The objective in this phase  to improve an ASR system that can accurately transc
 - **Phase 2 WER and DER:** 32% and 11%
 
 ## Model Details
-- [ASR Model Enhancement](#ASR-Model-Enhancement)
-- [Speaker Diarization Architecture and Models](#Speaker-Diarization-Architecture-and-Models)
+
 
 ## ASR Model Enhancement 
 
