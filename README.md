@@ -1,4 +1,5 @@
 # Egy_Speaker_Diarization
+![lol](https://github.com/Alkholy53/Egy_Speaker_Diarization/blob/main/Images/asr_sd_diagram.png)
 ## Outline
 - [1. Abstract](#abstract)
 - [2. Model Details](#model-details)
@@ -74,6 +75,7 @@ Here is the [config.yaml](https://github.com/Alkholy53/Egy_Speaker_Diarization/b
 ## 3. Experiment Technicalities
 
 ### Components Overview (Big Picture)
+![pipeline](https://github.com/Alkholy53/Egy_Speaker_Diarization/blob/main/Images/sd_pipeline.png)
 The system comprises multiple components working in tandem to achieve high-accuracy ASR and diarization:
 
 - **Component 1:** Speaker Embeddings Extraction (`titanet_large`)
