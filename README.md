@@ -38,7 +38,7 @@ Upgraded the tokenizer to tokenizer_spe_bpe_v128, which features 128 vocabulary 
 
 Enhanced the configuration parameters:
 -Increased batch size to accelerate training while ensuring accuracy remains unaffected.
--Enabled resuming training from the last best checkpoint. [Link to .yaml configuration file]
+-Enabled resuming training from the last best checkpoint. [configuration file](https://github.com/Alkholy53/Egy_Speaker_Diarization/blob/main/conformer_ctc_bpe.yaml)
 
 **3- Extended Training Duration:**
 
