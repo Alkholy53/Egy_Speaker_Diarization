@@ -18,8 +18,8 @@ This project focuses on Arabic Speech Recognition for Egyptian Dialects, specifi
 The objective in this phase  to improve an ASR system that can accurately transcribe Egyptian Arabic speech and provide diarization of multi-speaker audio recordings, including speaker identification and timestamps.
 
 ### Numerical Result
-- **Phase 1 WER:** 34%
-- **Phase 2 WER and DER:** 32% and 11%
+- **Phase 1 Mean Levenshtein Distance:** 21
+- **Phase 2 Mean Levenshtein Distance:** 
 
 ## 2. Model Details
 
@@ -122,12 +122,12 @@ You can run this notebook on [kaggel](https://www.kaggle.com/code/abdallahmohame
 
 ### Numerical Results
 
-| Number of Epochs | Word Error Rate (WER) |
-|------------------|-----------------------|
-| 5                | 73%                   |
-| 30               | 44%                   |
-| 100              | 34%                   |
-| 170              | 32%                   |
+| Number of Epochs | Word Error Rate (WER) | Mean Levenshtein Distance |
+|------------------|-----------------------|---------------------------|
+| 5                | 73%                   |21                         |
+| 30               | 44%                   |15                         |
+| 100              | 34%                   |12.6                       |
+| 170              | 32%                   |                           |
 
 ### Checkpoints
 
