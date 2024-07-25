@@ -148,3 +148,6 @@ To further improve the model, we plan to focus on the following areas:
 
 3. **Parameter Optimization**:
     - Continue to enhance and fine-tune the model parameters for optimal performance.
+    
+4. **Dataset Expansion**:
+    - Increase the dataset size for both the ASR and diarization models to improve their robustness and accuracy.
