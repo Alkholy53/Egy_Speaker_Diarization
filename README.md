@@ -82,7 +82,7 @@ The system comprises multiple components working in tandem to achieve high-accur
 - **Component 1:** Speaker Embeddings Extraction (`titanet_large`)
 - **Component 2:** Speaker Diarization (`diar_msdd_meeting`)
 - **Component 3:** Clustering Algorithm (Agglomerative Hierarchical Clustering)
-- **Component 4:** Voice Activity Detection (vad_multilingual_marblenet)
+- **Component 4:** Voice Activity Detection (`vad_multilingual_marblenet`)
 
 ### Component 1: `titanet_large`
 - **Function:** Extracts high-dimensional speaker embeddings from audio segments.
