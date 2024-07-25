@@ -96,7 +96,7 @@ The system comprises multiple components working in tandem to achieve high-accur
 - **Function:** Clusters speaker embeddings to identify distinct speakers in the audio.
 - **Details:** Uses Agglomerative Hierarchical Clustering with a specified distance threshold.
 
-### Component 4: Voice Activity Detection (vad_multilingual_marblenet)
+### Component 4: Voice Activity Detection (`vad_multilingual_marblenet`)
 - **Function:** Detects voice activity in the audio to segment speech and non-speech regions.
 - **Details:** Pre-trained VAD model to enhance diarization accuracy.
 
