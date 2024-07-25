@@ -46,7 +46,8 @@ Increased the number of training epochs to 170 to improve model performance and 
 
 **4- Language Model Integration:**
 
-Incorporated a language model to enhance recognition accuracy and contextual understanding. [Link to attached notebook]
+Incorporated a language model to enhance recognition accuracy and contextual understanding. [Model's training notebook](https://github.com/Alkholy53/Egy_Speaker_Diarization/blob/main/Train_Language_model.ipynb)
+. And attached the notebook's output [(the model)](https://github.com/Alkholy53/Egy_Speaker_Diarization/blob/main/Language_model.binary).
 
 -These enhancements have significantly improved our ASR model's performance, bringing us closer to achieving our project goals.
 
